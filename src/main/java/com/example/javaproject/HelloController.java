@@ -2,21 +2,25 @@ package com.example.javaproject;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Accordion;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tab;
 
 public class HelloController {
     @FXML
-    private Accordion SpaceshipAccordion1;
+    private Accordion spaceshipAccordion1;
+
+    @FXML
+    private Button ship1_CreateButton;
 
     @FXML
     private Label central1;
 
-    //@FXML
-    //protected void onHelloButtonClick() {welcomeText.setText("Welcome to JavaFX Application!");}
-
     @FXML
-    protected void CreateShip1_Button(){}
+    protected void CreateShip1_Button(){
+        spaceshipAccordion1.setVisible(true);
+        ship1_CreateButton.setVisible(false);
+    }
 
     @FXML
     protected void Ship1_Central_Add_Button(){}

@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38e1f39d-a2e3-4014-9688-339000980642" name="Changes" comment="Project Start">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/BarrackModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/CentralModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/EngineModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/GunModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/MiningModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/Module.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modules/ShieldModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaproject/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +60,8 @@
       <workItem from="1685905841842" duration="8000000" />
       <workItem from="1685914124045" duration="8000" />
       <workItem from="1685914213814" duration="67000" />
-      <workItem from="1685955241919" duration="4228000" />
+      <workItem from="1685955241919" duration="4284000" />
+      <workItem from="1685965005125" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Project Start">
       <created>1685959468314</created>
@@ -92,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685959468314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project Start">
+      <created>1685959520303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685959520303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
