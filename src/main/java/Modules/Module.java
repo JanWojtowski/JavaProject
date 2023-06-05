@@ -3,31 +3,35 @@ package Modules;
 import java.util.Objects;
 
 public abstract class Module {
-    boolean status;
-    String name;
+    private boolean status;
+    private String name;
 
     public Module(String name){
         this.name = name;
         this.status = false;
     }
-    public boolean turnOn(){
+    public String turnOn(){
         if(!this.status){
             this.status = true;
-            return true;
+            return "Module turned on";
         }
         else {
-            return false;
+            return "Module already on";
         }
     }
 
-    public boolean turnOff(){
+    public String turnOff(){
         if(this.status){
             this.status = false;
-            return true;
+            return "Module turned off";
         }
         else {
-            return false;
+            return "Module already off";
         }
+    }
+
+    public boolean getStatus(){
+        return status;
     }
 
     public String getName(){
@@ -37,6 +41,7 @@ public abstract class Module {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("\n");
         stringBuilder.append(name);
         stringBuilder.append(" Status: ");
         if(status){
@@ -45,7 +50,6 @@ public abstract class Module {
         else{
             stringBuilder.append("Offline");
         }
-        stringBuilder.append("\n");
         return stringBuilder.toString();
     }
 

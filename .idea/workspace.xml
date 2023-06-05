@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Module.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceShip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2QkmEJbvV6Wg4JeJ6GbrKXb17lR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,7 +66,6 @@
       <workItem from="1685914213814" duration="67000" />
       <workItem from="1685955241919" duration="4284000" />
       <workItem from="1685965005125" duration="299000" />
-      <workItem from="1685974484934" duration="3612000" />
     </task>
     <task id="LOCAL-00001" summary="Project Start">
       <created>1685959468314</created>

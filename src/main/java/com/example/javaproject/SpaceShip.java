@@ -14,14 +14,32 @@ public class SpaceShip {
         spaceShip.add(new CentralModule());
     }
 
-    public void addModule(Module module){
-        spaceShip.add(module);
-
+    public String addModule(Module module,Storage storage){
+        if(spaceShip.contains(module)){
+            return module.getName() + " is already attached";
+        }
+        else {
+            if(storage.TakeModule(module)){
+                spaceShip.add(module);
+                return module.getName() + " has been added";
+            }
+            else {
+                return "Not enough " + module.getName() + " in storage";
+            }
+        }
     }
 
-    public void removeModule(Module module,Storage storage){
-        spaceShip.remove(module);
+    public String removeModule(Module module,Storage storage){
+        if(module.getStatus()){
+            return "You must turn off module before removing it";
+        }
+        else {
+            spaceShip.remove(module);
+            storage.PutBackModule(module);
+            return "Module successfully removed";
+        }
     }
+
     @Override
     public String toString() {
         StringBuilder temp = new StringBuilder();
