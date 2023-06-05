@@ -10,7 +10,7 @@ public abstract class Module {
         this.name = name;
         this.status = false;
     }
-    boolean turnOn(){
+    public boolean turnOn(){
         if(!this.status){
             this.status = true;
             return true;
@@ -20,7 +20,7 @@ public abstract class Module {
         }
     }
 
-    boolean turnOff(){
+    public boolean turnOff(){
         if(this.status){
             this.status = false;
             return true;
@@ -28,6 +28,10 @@ public abstract class Module {
         else {
             return false;
         }
+    }
+
+    public String getName(){
+        return name;
     }
 
     @Override

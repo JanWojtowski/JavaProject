@@ -7,7 +7,7 @@ public class Test {
         SpaceShip spaceShip = new SpaceShip();
         spaceShip.addModule(new BarrackModule());
         System.out.println(spaceShip);
-        spaceShip.removeModule(new BarrackModule());
-        System.out.println(spaceShip);
+        //spaceShip.removeModule(new BarrackModule());
+        //System.out.println(spaceShip);
     }
 }
