@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e1f39d-a2e3-4014-9688-339000980642" name="Changes" comment="">
+    <list default="true" id="38e1f39d-a2e3-4014-9688-339000980642" name="Changes" comment="Project Start">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -83,11 +83,23 @@
       <workItem from="1685905841842" duration="8000000" />
       <workItem from="1685914124045" duration="8000" />
       <workItem from="1685914213814" duration="67000" />
-      <workItem from="1685955241919" duration="3907000" />
+      <workItem from="1685955241919" duration="4228000" />
     </task>
+    <task id="LOCAL-00001" summary="Project Start">
+      <created>1685959468314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685959468314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Start" />
   </component>
 </project>
