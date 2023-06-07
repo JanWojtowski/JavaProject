@@ -179,6 +179,7 @@ public class SpaceshipCreatorController {
             spaceShip1 = null;
             spaceshipAccordion1.setVisible(false);
             ship1CreateButton.setVisible(true);
+            ship1CreateButton.setText("Click to create ship");
         }
         else {
             centralModuleLabel1.setText(temp);
@@ -371,6 +372,7 @@ public class SpaceshipCreatorController {
             spaceShip2 = null;
             spaceshipAccordion2.setVisible(false);
             ship2CreateButton.setVisible(true);
+            ship2CreateButton.setText("Click to create ship");
         }
         else {
             centralModuleLabel2.setText(temp);
@@ -563,6 +565,7 @@ public class SpaceshipCreatorController {
             spaceShip3 = null;
             spaceshipAccordion3.setVisible(false);
             ship3CreateButton.setVisible(true);
+            ship3CreateButton.setText("Click to create ship");
         }
         else {
             centralModuleLabel3.setText(temp);
@@ -753,6 +756,7 @@ public class SpaceshipCreatorController {
             spaceShip4 = null;
             spaceshipAccordion4.setVisible(false);
             ship4CreateButton.setVisible(true);
+            ship4CreateButton.setText("Click to create ship");
         }
         else {
             centralModuleLabel4.setText(temp);
@@ -945,6 +949,7 @@ public class SpaceshipCreatorController {
             spaceShip5 = null;
             spaceshipAccordion5.setVisible(false);
             ship5CreateButton.setVisible(true);
+            ship5CreateButton.setText("Click to create ship");
         }
         else {
             centralModuleLabel5.setText(temp);

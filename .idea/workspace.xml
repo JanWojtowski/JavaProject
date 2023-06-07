@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38e1f39d-a2e3-4014-9688-339000980642" name="Changes" comment="Project Storage Module added">
+    <list default="true" id="38e1f39d-a2e3-4014-9688-339000980642" name="Changes" comment="Project Final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modules/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modules/Module.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaproject/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceshipCreatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceshipCreatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceshipCreatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javaproject/SpaceshipCreatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javaproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javaproject/SpaceshipCreator.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <workItem from="1685965005125" duration="299000" />
       <workItem from="1686047663651" duration="7118000" />
       <workItem from="1686082287885" duration="3179000" />
-      <workItem from="1686138010410" duration="10332000" />
+      <workItem from="1686138010410" duration="11735000" />
     </task>
     <task id="LOCAL-00001" summary="Project Start">
       <created>1685959468314</created>
@@ -94,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685994101317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project Final">
+      <created>1686151144068</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686151144068</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Start" />
     <MESSAGE value="Project Storage Module added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Storage Module added" />
+    <MESSAGE value="Project Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Final" />
   </component>
 </project>
