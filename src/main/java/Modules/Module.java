@@ -34,6 +34,15 @@ public abstract class Module {
         return status;
     }
 
+    public String getStringStatus(){
+        if(status){
+            return "Online";
+        }
+        else{
+            return "Offline";
+        }
+    }
+
     public String getName(){
         return name;
     }
@@ -41,7 +50,6 @@ public abstract class Module {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("\n");
         stringBuilder.append(name);
         stringBuilder.append(" Status: ");
         if(status){
@@ -50,6 +58,7 @@ public abstract class Module {
         else{
             stringBuilder.append("Offline");
         }
+        stringBuilder.append("\n");
         return stringBuilder.toString();
     }
 
